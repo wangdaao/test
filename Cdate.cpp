@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include <math>
 #include "/apath/string"
 using namespace std;
 #define MAX 100
