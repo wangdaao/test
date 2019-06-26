@@ -11,6 +11,8 @@ private:
     unsigned short int year;   // 年
     unsigned short int month;  // 月
     unsigned short int day;    // 日
+    unsigned short int second;
+	 
 public:
     CDate(int y=0,int m=0,int d=0);
     bool operator < (CDate d);  //成员函数，重载<运算符
